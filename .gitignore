@@ -1,0 +1,304 @@
+# DreamVision AI - .gitignore
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.env
+
+# ================================
+# Python / Backend
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.virtualenv
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Alembic
+# Keep migrations/ but ignore specific files if needed
+# migrations/versions/*.pyc
+
+# ================================
+# Node.js / React Native / Mobile
+# ================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro bundler
+.metro-health-check*
+
+# Testing
+coverage/
+
+# Production
+build/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# ================================
+# IDEs and Editors
+# ================================
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ================================
+# Operating System
+# ================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ================================
+# Database
+# ================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL
+*.dump
+*.sql.backup
+
+# ================================
+# Logs
+# ================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ================================
+# Temporary Files
+# ================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ================================
+# API Keys & Secrets (Double Check!)
+# ================================
+
+# Make sure these patterns catch any secrets
+**/secrets/
+**/*secret*
+**/*key*
+**/*token*
+**/*password*
+.anthropic_api_key
+.runway_api_key
+
+# ================================
+# Build Artifacts
+# ================================
+
+*.pyc
+*.pyo
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# ================================
+# n8n Workflows (Optional)
+# ================================
+
+# Keep workflows/ folder but ignore credentials
+workflows/credentials.json
+workflows/.n8n/
+
+# ================================
+# Documentation Build
+# ================================
+
+docs/_build/
+docs/.doctrees/
+site/
+
+# ================================
+# Cloud / Deployment
+# ================================
+
+# Railway
+.railway/
+
+# Vercel
+.vercel
+
+# AWS
+.aws/
+
+# ================================
+# Package Manager Locks (Optional)
+# ================================
+
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# poetry.lock
+
+# ================================
+# Custom Project Files
+# ================================
+
+# Test videos/images (don't commit large files)
+test-videos/
+test-images/
+*.mp4
+*.mov
+*.avi
+
+# Backup files
+*.backup
+*.bkp
+
+# Development database
+dev.db
+
+# Local configuration overrides
+local.config.json

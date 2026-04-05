@@ -15,13 +15,19 @@
 | Phase | Duration | Status | Progress |
 |-------|----------|--------|----------|
 | Phase 1: Prompt System & Testing | Week 0 | ✅ COMPLETED | 100% |
-| Phase 2: Backend + Supabase | Week 1-2 | 🔄 READY TO START | 0% |
+| **Phase 2: Backend** | 🔄 In Progress | **35%** | **2 epics done** |
+| - Epic 2.1: Supabase | ✅ Complete | 100% | Database + Auth ready |
+| - Epic 2.2: FastAPI Setup | 🔄 In Progress | 85% | Server running, Docker pending |
+| - Epic 2.3: Dream API | ⏳ Pending | 0% | Starting tomorrow |
 | Phase 3: Mobile App (React Native) | Week 3-4 | ⏳ PENDING | 0% |
 | Phase 4: Integration & Polish | Week 5 | ⏳ PENDING | 0% |
 | Phase 5: Deployment & Launch | Week 6 | ⏳ PENDING | 0% |
 | Phase 6: Web PWA (Optional) | Week 7 | 📦 OPTIONAL | 0% |
 | Phase 7: Analytics (Optional) | Week 8 | 📦 OPTIONAL | 0% |
 
+**Last Updated:** 2026-04-05  
+**Current Focus:** Epic 2.2 completion (Docker)  
+**Next Up:** Epic 2.3 (Dream Analysis API with Claude)
 ---
 
 ## 🏗️ Architecture
